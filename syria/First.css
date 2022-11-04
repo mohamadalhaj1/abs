@@ -1,0 +1,47 @@
+body{
+   margin: 0%;
+   padding: 0%;
+    height: 100vh;
+    background-image: url(rac.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-size: 60px;
+    
+
+}
+ul{
+    text-align: center;
+}
+ul li{
+    list-style: none;
+    margin: 14px 0;
+}
+ul:hover li a{
+    opacity: 0;
+}
+ul li a{
+    color: wheat;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 500;
+    background:  rgb(63, 1, 22);
+    padding: 0px 50px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: relative;
+    z-index: 10;
+}
+ul li a:hover{
+    transform:scale(1.5);
+    background: black;
+    opacity: 1;
+}
+pre{
+    font-size: xx-large;
+}
